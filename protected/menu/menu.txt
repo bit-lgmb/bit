@@ -1,0 +1,108 @@
+<font color="red">Intranet</font>
+.<font color="red">Annotation Pipelines</font>
+..Leukemia Gene Discovery|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=leukemia
+..Melanoma Gene Discovery|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=melanoma
+..Apis Gene Discovery|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=apis
+..Transcript Finishing Initiative|http://www.compbionet.org.br/transcript/
+..Mithocondrial|/bit/frames/?url=http://143.107.223.157/pipeline-cgi/index.pl?project=mitochondrial
+..Marrow Tumor Gene Discovery|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=MTpaper
+..GEAP (Generic Est Annotation Pipeline)|http://guarani.fmrp.usp.br/geap/
+.<font color="red">Project Status</font>
+..TagMap|http://bit.fmrp.usp.br/bit/frames/?title=TagMap&url=http://guarani.fmrp.usp.br/tagmap/index.html
+..Geis|http://bit.fmrp.usp.br/bit/frames/?title=Gene Expression <i>in silico</i>&url=http://guarani.fmrp.usp.br/geis/index.html
+..SNPIndex|http://bit.fmrp.usp.br/bit/frames/?title=SNPIndex&url=http://lbc3.fmrp.usp.br/snpindex/index.html
+..GMarker|http://bit.fmrp.usp.br/bit/frames/?title=GMarker&url=http://lbc3.fmrp.usp.br/gmark/index.html
+..BesTags|http://bit.fmrp.usp.br/bit/frames/?title=BesTags&url=http://lbc3.fmrp.usp.br/cgi-bin/bestags/main.cgi/&menufile=/bestags/menu.html&style=/bestags/btags.css
+..BestPrimers|http://lbc3.fmrp.usp.br/cgi-bin/bestprimers/FindPrimer.cgi
+..BeTs|http://xavante.fmrp.usp.br/bets
+..H2G 
+...Old|http://143.107.223.157/h2g/
+...CGAP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=1
+...CTC|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=2
+...INCOR|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=3
+...CGP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=4
+...LICR|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=5
+...LIM/USP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=6
+...TEST|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=7
+...LICR_BRENTANI|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=8
+...LGC|http://lbc1.fmrp.usp.br/cgi-bin/h2g/index.cgi?project_id=9
+..H2G (Hyper and Hypoexpressed Genes)|/bit/frames/?title=H2G&url=http://guarani.fmrp.usp.br/cgi-bin/h2g/index.cgi/h2g_response?project_id=1&menufile=h2g_menu/menu.html&style=/h2g_menu/h2g.css
+..GEI
+...Old|http://143.107.223.157/gei/index.html
+...CGAP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=1
+...CTC|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=2
+...INCOR|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=3
+...CGP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=4
+...LICR|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=5
+...LIM/USP|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=6
+...TEST|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=7
+...LICR_BRENTANI|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=8
+...LGC|http://lbc1.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi?project_id=9
+..GEI (Gene Expression Index)|/bit/frames/?title=Gene Expression Index&url=http://guarani.fmrp.usp.br/cgi-bin/h2g/gei/index.cgi&menufile=gei/menu.html&style=/h2g_menu/h2g.css
+..GEAP (Generic Est Annotation Pipeline)|/bit/frames/?title=GEAP&url=http://guarani.fmrp.usp.br/geap/geap.html&menufile=geap_menu/menu.html&style=/geap_menu/geap.css
+..ATGC|/bit/frames/?title=ATGC&url=http://guarani.fmrp.usp.br/cgi-bin/atgc/index.cgi
+..<font color="blue">Leukemia Gene Discovery</font>
+...SNP|/bit/frames/?url=http://143.107.223.181/cgi-bin/snp/menu_snp.pl?db=leuk_paper&menufile=snp/menu_snpleukemia.html
+....SNP Statistics|/bit/frames/?url=http://143.107.223.153/snpleukemia/statistics/snpleukemia.html
+....SNP Reports|/bit/frames/?url=http://143.107.223.153/snpleukemia/reports/
+...Gene Ontology|/bit/frames/?title=GO_GeneList&url=http://143.107.223.151/cgi-bin/go/list/tableList.pl
+...Gene Ontology Class|/bit/frames/?title=GO_GeneList&url=http://143.107.223.151/cgi-bin/go/list/tableClass.pl
+...Pfam|/bit/frames/?title=Pfam_Leukemia&url=http://bit.fmrp.usp.br/cgi-bin/pfam/tools/tablePfam.pl?project=Leukemia
+...Current Pipeline|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=leukemia
+...Pipeline Leukemia Paper|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=leukemiaPaper
+..<font color="blue">Marrow Tumor Gene Discovery</font>
+...Pfam Marrow Tumor|/bit/frames/?title=Pfam_Marrow_Tumor&url=http://bit.fmrp.usp.br/cgi-bin/pfam/tools/tablePfam.pl?project=BoneMarrow
+...Gene Ontology|/bit/frames/?title=GO_GeneList&url=http://143.107.223.151/cgi-bin/go/list/tableList.pl
+...Gene Ontology Class|/bit/frames/?title=GO_Genes_Classified&url=http://143.107.223.151/cgi-bin/go/list/tableClass.pl
+...Pipeline|/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=MTpaper
+..Cluster Annotation in Silico|/cais
+..Gene Classification|/bit/frames/?title=Gene_Classification&url=http://143.107.223.192/geneclass/main.php
+.<font color="red">Internal Services</font>
+..Banco de Amostras|/amostras
+..Banco de Primers|/prdb/
+..Controle de Almoxarifado|/bit/frames/?title=Controle_de_Almoxarifado&url=/store/
+.<font color="red">Files</font>
+..Projects|http://scarecrow.fmrp.usp.br/files/projects/
+..Install|http://scarecrow.fmrp.usp.br/files/install/
+.<font color="red">Others</font>
+..Chemokines|/bit/frames/?url=http://143.107.223.153/
+..Marrow Tumor Muvuca|/bit/frames/?url=http://143.107.223.172/pipelines/
+..Array|http://143.107.223.172/pipelineArray-cgi/index.pl?project=array
+..Maping of chromosome 5 |/bit/frames/?title=Human_Mapping&url=http://yanomami.fmrp.usp.br/cgi-bin/gbrowse/gbrowse?source=human
+..Mapping 13q14|/bit/frames/?title=Human_Chr_Mapping&url=http://yanomami.fmrp.usp.br/cgi-bin/gbrowse/gbrowse?source=kelson
+..Head & Neck 2SAGE|/bit/frames/?title=HN_clone&url=/hn_clone/index.html
+..New Pipeline Development|/bit/frames/?title=New_Pipeline_Development&url=http://143.107.223.178/geap_dev/
+..Mapping Development| /bit/frames/?title=Mapeamento&url=http://scarecrow.fmrp.usp.br/~mavcunha/public/gmod_bit/
+..Phylogeny|/bit/frames/?title=Phylogeny&url=/phylo/
+..Multiple Chromosome Cluster Check|http://lbc2.fmrp.usp.br/cgi-bin/bitc2/bitc2.pl/home/
+..Gene Assemble|/bit/frames/?url=http://143.107.223.172/mito/&title=Gene_Assemble
+.<font color="red">Pages Control</font>
+..Workshop: Express&atilde;o G&ecirc;nica em C&acirc;ncer|http://bit.fmrp.usp.br/eg/controle/
+..Semin&aacute;rios do CTC|http://bit.fmrp.usp.br/scctc/controle/
+..Curso Bioinform&aacute;tica Online FMRP/USP|http://bit.fmrp.usp.br/biol/control/
+..Curso Bioinform&aacute;tica Online UFRGS|http://bit.fmrp.usp.br/bionline/control/
+..Curso CBAB|http://yanomami.fmrp.usp.br/cbab/controle/
+..Curso de Ver&atilde;o|/ctc/inscricoes/controle
+..Listagem de Participantes do CBAB|http://yanomami.fmrp.usp.br/cbab/controle/listaPart.php
+..Controlador GENEX|http://bit.fmrp.usp.br/genex/ctrl/
+..Administrador GENEX|http://bit.fmrp.usp.br/genex/ctrl/proj/
+.<font color="red">Page Development</font>
+..GDM|http://lgmb.fmrp.usp.br/gdm/
+..ATGC|http://143.107.223.179/atgc/html/
+..Banco de Amostras|http://143.107.223.179/~philber/amostras/
+..P&aacute;gina da Gen&eacute;tica|http://143.107.223.179/rge/html/
+..Bioinform&aacute;tica Online|http://143.107.223.179/~philber/bioinfo/
+..Curso CBAB|http://yanomami.fmrp.usp.br/cbab
+..Disciplina Gen&eacute;tica F/T|/dgfto/
+..Sequence Manipulation Suit|http://bit.fmrp.usp.br/sms
+..GENEX|/genex/
+..Disciplina Genética Medica|/dgm/
+..Disciplina Genética Humana|/dgib/
+..Genética Molecular|/amgm/
+..Banco de Currículos|/docentes/
+..Disciplina Genética Molecular e de Populações|/dgmp/
+.<font color="red">Documentation</font>
+..IP List |/bit/frames/?url=/bit/protected/tab_ip.html
+..Backup |/bit/frames/?url=/bit/protected/backup.html 
+..NIS Plus Linux|/bit/frames/?url=/bit/protected/nisplus_linux.html
+.<font color='red'>Journals Passwords</font> |/bit/protected/journals_pass.php

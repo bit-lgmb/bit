@@ -1,0 +1,48 @@
+<table cellpadding=\"2\" cellspacing=\"2\" border=\"0\" width=\"660\">
+
+      <tr>
+		<td class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" >FlyEST</td>
+		<td  class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" >ElectrApis</td>
+      </tr>
+      <tr>
+      <td valign=\"top\">
+      <a href=\"/bit/frames/?url=http://morpheus.fmrp.usp.br/results/\"><img src=\"images/drosophila.jpg\" border=\"0\" align=\"left\" ></a>
+      <p class=\"newsboxsmall\">FlyEST is a pilot project that uses ORESTES methodology (Neto et al. 2000, PNAS) for rapid validation of Drosophila melanogaster transcriptome as predicted by the in silico analyses of the genomic sequence, with special emphasis on less abundant transcripts...</p>
+      </td>
+      <td valign=\"top\" >
+<a href=\'/bit/frames/?url=http://143.107.223.190/pipelines-cgi/index.pl?project=apis\'>
+      <img src=\"images/bee.jpg\"  border=\"0\" align=\"left\" ></a>
+      
+       <p class=\"newsboxsmall\">ElectrApis:  oldest honey bee-like fossil from Baltic Amber (Eocene, 40 million years) ElectrApis: Sister of ORESTES...</p>
+      </td>
+      </tr>
+
+      <tr>
+		<td class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" >HCGP-SNP</td>
+		<td class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" ><a href=\'/bit/frames/?url=http://scarecrow.fmrp.usp.br/~mavcunha/public/gmod_bit/&ptitle=gbrowse_at_BiT\' class=\'menulink\' >Gbrowse mapping</a></td>
+      </tr>
+      
+      <tr>
+      <td>
+      <a href=\"/bit/frames/?url=/cgi-bin/snp/snp.pl&menufile=/snp/menu_snp.html&title=SNP\"><img src=\"images/hcgpsnp.jpg\" align=\"left\" border=\"0\"> </a>
+       <p class=\"newsboxsmall\">In this study, we have identified SNPs in the coding region of genes expressed in tumors using a database composed of ORESTES (open reading frame expressed sequence tags; Dias-Neto et al., 2000), sequences that are preferentially located in the central region of expressed genes.</p>
+      </td>
+      <td>
+<p class=\"newsboxsmall\">Mapping ORESTES information, using <a href=\'http://www.gmod.org\'>GMOD</a> tool. We\'ll use NCBI\'s mapview information and <i>in loco</i> data analysis information.<br>
+
+</p>
+</td>
+      </tr>
+      <tr>
+		<td class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" >H2G</td>
+		<td  class=\"boxtitleblue\" width=\"50%\" valign=\"middle\" ></td>
+      </tr>
+      <tr>
+<td>
+<a href=\"http://bit.fmrp.usp.br/bit/frames/?title=H2G&url=http://guarani.fmrp.usp.br/cgi-bin/h2g/index.cgi/h2g_response?project_id=1&menufile=h2g_menu/menu_1.html&style=/h2g_menu/h2g.css\" target=\"_top\" ><img border=\"0\" src=\"/h2g_menu/h2g_t.jpg\" align=\"left\" alt=\"H2G\"></a><p class=\"newsboxsmall\">H2G is a new tool to support 
+the analysis of gene expression. It permits the selection of hyper and hypo-expressed genes from a SAGE (Serial Analysis Gene Expression) dataset (Velculescu et al, 2000; Boon et al, 2002).</p>
+</td>
+<td>
+</td>
+       </tr>
+</table>

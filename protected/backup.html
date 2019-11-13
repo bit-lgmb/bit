@@ -1,0 +1,1029 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-15">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.0.1  (Linux)">
+	<META NAME="AUTHOR" CONTENT="MB">
+	<META NAME="CREATED" CONTENT="20030322;11261400">
+	<META NAME="CHANGEDBY" CONTENT="MB">
+	<META NAME="CHANGED" CONTENT="20030322;11313400">
+</HEAD>
+<BODY LANG="pt-BR" BACKGROUND="../opt/OpenOffice.org1.0/share/gallery/www-back/ice-blue.jpg">
+<H1><U>CONTROLE DE BACKUP&acute;S PARA PROJETOS DO BIT Obs.:
+/backup/bit = &gt; bit/work/bkp/servers/$frequencia</U></H1>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<TABLE WIDTH=100% BORDER=1 BORDERCOLOR="#000000" CELLPADDING=5 CELLSPACING=0>
+	<COL WIDTH=7*>
+	<COL WIDTH=22*>
+	<COL WIDTH=22*>
+	<COL WIDTH=48*>
+	<COL WIDTH=14*>
+	<COL WIDTH=14*>
+	<COL WIDTH=59*>
+	<COL WIDTH=69*>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=CENTER><FONT SIZE=2 STYLE="font-size: 9pt"><B>No</B></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><FONT SIZE=1 STYLE="font-size: 8pt"><B>FREQU&Ecirc;NCIA</B></FONT></P>
+			<P ALIGN=CENTER><FONT SIZE=1 STYLE="font-size: 8pt"><B>(I/F)</B></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><FONT SIZE=2><B>Server</B></FONT></P>
+			<P ALIGN=CENTER><FONT SIZE=2><B>/ Client</B></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<H2>DIRET&Oacute;RIO-ORIGEM</H2>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER><FONT SIZE=2 STYLE="font-size: 9pt"><B><FONT SIZE=1 STYLE="font-size: 8pt">TAMA-NHO
+			(MB</FONT>)</B></FONT></P>
+		</TD>
+		<TD WIDTH=5%>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><FONT SIZE=1><B>USU&Aacute;RIO</B></FONT></P>
+			<P ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=23%>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0cm"><B>SCRIPT</B></P>
+			<P ALIGN=CENTER><B>no host origem </B>
+			</P>
+		</TD>
+		<TD WIDTH=27%>
+			<P ALIGN=CENTER STYLE="margin-right: 0.51cm; margin-bottom: 0cm"><B>ARQUIVO
+			BACKUP DESTINO </B>
+			</P>
+			<P ALIGN=CENTER STYLE="margin-right: 0.51cm"><FONT SIZE=3 STYLE="font-size: 13pt"><B>bit:/work/bkp/<SPAN LANG="en-US">servers...</SPAN></B></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>1</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>DI&Aacute;RIO</FONT></P>
+			<P><FONT SIZE=2>22 H</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">GORDON</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">/home</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>12 GB</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P><FONT SIZE=2>root</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P><FONT SIZE=2>/usr/scripts/producao/bkp.home.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>/dev/rmt/0 (FITA DDS)
+			(10 PM)</FONT></P>
+			<P><FONT SIZE=2>FH1/FH2</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>2</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>DI&Aacute;RIO</FONT></P>
+			<P STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P><FONT SIZE=2>10 H</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">GORDON</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 9pt">/usr
+			</FONT>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 9pt">/var
+			</FONT>
+			</P>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">/work/bkp/servers/</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>7.500,00</FONT></P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>2.700,00</FONT></P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>de 3.3</FONT></P>
+			<P ALIGN=LEFT><FONT SIZE=2>GB a 8,3 GB</FONT></P>
+		</TD>
+		<TD WIDTH=5%>
+			<P><FONT SIZE=2>root</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P><FONT SIZE=2>/usr/scripts/producao/bkp.usr+var.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>/dev/rmt/0 (FITA DDS)
+			(10 AM)</FONT></P>
+			<P><FONT SIZE=2>FU1/FU2</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=BOTTOM SDVAL="3" SDNUM="2070;">
+			<P ALIGN=RIGHT><FONT SIZE=2>3</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P><FONT SIZE=2>DI&Aacute;RIO 20 h</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">/data/snpindex/cgi-bin </FONT>
+			</P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="0,1" SDNUM="2070;1046;0,00">
+			<P ALIGN=RIGHT><FONT SIZE=2>0,10</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P><FONT SIZE=2>Tojal</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P><FONT SIZE=2>/backup/scripts/diario.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P><FONT SIZE=2>/backup/bit/diario/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=BOTTOM SDVAL="4" SDNUM="2070;">
+			<P ALIGN=RIGHT><FONT SIZE=2>4</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P><FONT SIZE=2>DI&Aacute;RIO 20 h</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/data/snpindex/html
+			</FONT>
+			</P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="0,11" SDNUM="2070;1046;0,00">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>0,11</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>Tojal</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/diario.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/diario/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>5</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2><SPAN LANG="en-US">DIARIO</SPAN> 22 h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">SCARECROW</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/usr/local/cvsroot
+			</FONT>
+			</P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>18,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>Marco</FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>Daniel</FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>Israel</FONT></P>
+			<P LANG="en-US"><FONT SIZE=2>Brown</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/usr/scripts/bkp/diario.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/diario/sca_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=BOTTOM SDVAL="6" SDNUM="2070;">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>6</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>SEMANAL 3h</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/disco2/geis/scripts</FONT></P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="0,35" SDNUM="2070;1046;0,00">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>0,35</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/semanal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/semanal/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=BOTTOM SDVAL="7" SDNUM="2070;">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>7</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>SEMANAL 3h</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/disco2/h2g/cgi-bin</FONT></P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="4,1" SDNUM="2070;1046;0,00">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>4,10</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/semanal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/semanal/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=BOTTOM SDVAL="8" SDNUM="2070;">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>8</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>SEMANAL 3h</FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/disco2/h2g/html</FONT></P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="0,72" SDNUM="2070;1046;0,00">
+			<P LANG="en-US" ALIGN=RIGHT><FONT SIZE=2>0,72</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/semanal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/semanal/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>9</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>SEMANAL</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/pipelinesTest/transcriptome/backup</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>227,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/root/bkp-s.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/batrope/semanal/bat_bkp_yy-mm-dd.tar</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>10</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2>SEMANAL</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/pipelinesTest/transcriptome/report</FONT></P>
+		</TD>
+		<TD WIDTH=6% SDVAL="0" SDNUM="2070;1046;0,00">
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>142,00</FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/root/bkp-s.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US" STYLE="margin-left: 0.01cm"><FONT SIZE=2>/batrope/semanal/bat_rep_yy-mm-dd.tar.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=3% VALIGN=TOP>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>11</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="es-ES"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>SEMANAL</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=9% VALIGN=TOP>
+			<P LANG="es-ES"><FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=19% VALIGN=TOP>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt">MySQL banco
+			BIT</FONT></P>
+		</TD>
+		<TD WIDTH=6% VALIGN=BOTTOM SDVAL="110" SDNUM="2070;">
+			<P LANG="es-ES" ALIGN=RIGHT><FONT SIZE=2>110</FONT></P>
+		</TD>
+		<TD WIDTH=5% VALIGN=TOP>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23% VALIGN=TOP>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2>/root/bkp-s.sh</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=27% VALIGN=TOP>
+			<P LANG="en-US" STYLE="margin-left: 0.01cm"><FONT SIZE=2>/batrope/semanal/bat_mysql-BIT_yy-mm-dd.sql.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>12</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2>SEMANAL</FONT></FONT></P>
+			<P><FONT COLOR="#000000"><FONT SIZE=2>01:00 h</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 9pt">EGGHEAD</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 9pt">/work/pipelines/{$PROJETOS}/backup</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2>4800,00</FONT></FONT></P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P><FONT COLOR="#000000"><FONT SIZE=2>Daniel</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2>/usr/scripts/bkp/semanal.sh
+			</FONT></FONT>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2>/backup/bit/semanal/egg_projetos.tar_yymmdd</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>13</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2>SEMANAL 01:00 h (10 ')</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">EGGHEAD</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2>/work/pipelines/{$PROJETOS}/report</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>5,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2>/usr/scripts/bkp/semanal.sh
+			</FONT></FONT>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2>/backup/bit/semanal/egg_projetos.tar_yymmdd.gz</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>14</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>SEMANAL</FONT></P>
+			<P><FONT SIZE=2>01:00 h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">EGGHEAD</SPAN></FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">01:00</SPAN></FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">01:03
+			</SPAN></FONT>
+			</P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">01:05</SPAN></FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">01:07</SPAN></FONT></P>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">01:14</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=19%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">MySQL
+			bancos </SPAN></FONT>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">pipelineApis</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">pipelineLeishmania</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">pipelineLeukemiaPaper</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">pipelineLeukemia</SPAN></FONT></P>
+			<P><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">pipelineMelanoma</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">6,00</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">360
+			</SPAN></FONT>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">125
+			</SPAN></FONT>
+			</P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">12,00</SPAN></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">188,00</SPAN></FONT></P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">(691)
+			</SPAN></FONT>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><BR>
+			</P>
+			<P ALIGN=LEFT><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">194
+			</SPAN></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt">Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 11pt">/usr/scripts/bkp/mysql.sh</FONT></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 11pt">/usr/scripts/bkp/dump.mysqlApis.sh</FONT></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 11pt">/usr/scripts/bkp/dump.mysqlLeis.sh
+			/usr/scripts/bkp/dump.mysqLeuP.sh</FONT></FONT></P>
+			<P STYLE="margin-bottom: 0cm"><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 11pt">/usr/scripts/bkp/dump.mysqLeuk.sh</FONT></FONT></P>
+			<P><FONT COLOR="#000000"><FONT SIZE=2 STYLE="font-size: 11pt">/usr/scripts/bkp/dump.mysqlMela.sh</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT COLOR="#000000"><FONT SIZE=2>/backup/bit/semanal/egg_mysql.tar_yymmdd.gz</FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>15</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P><FONT SIZE=2>dia 11 02:00h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/data/snpindex/html</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>128,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P><FONT SIZE=2>Tojal</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/mensal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/mensal/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>16</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P><FONT SIZE=2>dia 12 04:35h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/pipelinesTest/bin</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>7,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/root/bkp_m.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/batrope/mensal/bat_bin_yy-mm-dd.tar.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>17</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P><FONT SIZE=2>2as 04:30h </FONT>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/pipelinesTest/cgi-bin</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>34,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/root/bkp-m.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/batrope/mensal/bat_cgi-bin_yy-mm-dd.tar.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>18</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P LANG="es-ES"><FONT SIZE=2>2as 04:30h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt">BATROPE</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt">/pipelinesTest/html</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>15,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/root/bkp-m.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/batrope/mensal/bat_html_yy-mm-dd.tar.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>19</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P><SPAN LANG="en-US"><FONT SIZE=2>11 01:00</FONT></SPAN>h</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">EGGHEAD</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/work/pipelines/pipelined</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>2,80</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/mensal/egg_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>20</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT></P>
+			<P LANG="en-US"><FONT SIZE=2>11 01:00h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">EGGHEAD</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">/work/pipelines/{$PROJETOS}/bin</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>24,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/mensal/egg_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>21</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL</FONT>(1')</P>
+			<P><FONT SIZE=2>11 01:00h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt">EGGHEAD</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt">/work/pipelines/cgi-bin</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>0,27</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/mensal/egg_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>22</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P STYLE="margin-bottom: 0cm"><FONT SIZE=2>MENSAL (1')</FONT></P>
+			<P><FONT SIZE=2>11 01:00h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: transparent">EGGHEAD</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">/work/pipelines/html</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">1,00</SPAN></FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2><SPAN STYLE="background: transparent">Daniel</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/mensal/egg_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>23</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">MENSAL</SPAN></FONT></P>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">12
+			23:00 h</SPAN></FONT></P>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">13
+			23:00 h</SPAN></FONT></P>
+			<P><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: transparent">JUPITER</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: transparent">MySQL
+			GEIS </SPAN></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">156,00</SPAN></FONT></P>
+			<P LANG="es-ES" ALIGN=LEFT><FONT SIZE=2><SPAN STYLE="background: transparent">118,00</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2><SPAN STYLE="background: transparent">Daniel</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2>/usr/scripts/bkp/mysql.sh
+			(f&iacute;sico) (16')</FONT></P>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/dump.mysql.sh
+			(l&oacute;gico) (51')</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P STYLE="margin-bottom: 0cm"><SPAN LANG="en-US"><FONT SIZE=2>/backup/bit/jup_mysql.tar.yymmdd.gz</FONT></SPAN></P>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/jup_mysql_GEIS_yymmdd.sql.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>24</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">MENSAL</SPAN></FONT></P>
+			<P LANG="es-ES"><FONT SIZE=2><SPAN STYLE="background: transparent">12
+			23:20h</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: transparent">JUPITER</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">/www/cgi-bin/geneclass
+			</SPAN></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">1,88</SPAN></FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2><SPAN STYLE="background: transparent">Gislaine</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.cgi.sh (2')</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/jup_gene.cgi.tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>25</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES" STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">MENSAL</SPAN></FONT></P>
+			<P LANG="es-ES"><FONT SIZE=2><SPAN STYLE="background: transparent">12
+			23:20h</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt"><SPAN STYLE="background: transparent">JUPITER</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="background: transparent">/www/htdocs/geneclass</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2><SPAN STYLE="background: transparent">11,6</SPAN></FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2><SPAN STYLE="background: transparent">Gislaine</SPAN></FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/mensal.htdocs.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/jup_gene.htdocs.tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>26</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US" STYLE="margin-bottom: 0cm"><FONT SIZE=2>SEMESTRAL</FONT></P>
+			<P LANG="en-US"><FONT SIZE=2>9-[2|8]- 2:00h</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">ALFRED</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P><FONT SIZE=2 STYLE="font-size: 11pt">/disco2/h2g/mysql (19')</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>134,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/scripts/semestral.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>/backup/bit/semestral/alf_tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>27</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2>EVENTUAL</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">BIT</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt">/var/apache/cgi-bin/geis</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>0,15</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="en-US"><FONT SIZE=2>/usr/scripts/producao/bkp.usr+var.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="en-US"><FONT SIZE=2>Fita DDS FU1/FU2 </FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>28</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2>&Uacute;NICO</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 9pt">JUPITER</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt">/home2/geis/expression</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>467,00</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="es-ES"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/geis_expression.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="es-ES"><FONT SIZE=2>/backup/bit/geisexpression.tar.yymmdd.Z</FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=3%>
+			<P LANG="es-ES" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>29</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2>&Uacute;NICO</FONT></P>
+		</TD>
+		<TD WIDTH=9%>
+			<P LANG="es-ES"><FONT SIZE=2 STYLE="font-size: 9pt">JUPITER</FONT></P>
+		</TD>
+		<TD WIDTH=19%>
+			<P LANG="en-US"><FONT SIZE=2 STYLE="font-size: 11pt">/home2/geis/scripts</FONT></P>
+		</TD>
+		<TD WIDTH=6%>
+			<P LANG="en-US" ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=2>5,90</FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD WIDTH=5%>
+			<P LANG="en-US"><FONT SIZE=2>Daniel</FONT></P>
+		</TD>
+		<TD WIDTH=23%>
+			<P LANG="es-ES"><FONT SIZE=2>/usr/scripts/bkp/geis_scripts.sh</FONT></P>
+		</TD>
+		<TD WIDTH=27%>
+			<P LANG="es-ES"><FONT SIZE=2>/backup/bit/geisscripts.tar.yymmdd.gz</FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P><BR><BR>
+</P>
+</BODY>
+</HTML>

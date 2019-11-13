@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Procedimentos de revisão de código</TITLE>
+<META NAME="description" CONTENT="Procedimentos de revisão de código">
+<META NAME="keywords" CONTENT="revision">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="revision.css">
+
+<LINK REL="next" HREF="node4.html">
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="revision.html">
+<LINK REL="next" HREF="node4.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html50"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html46"
+  HREF="revision.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html40"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html48"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Seguinte:</B> <A NAME="tex2html51"
+  HREF="node4.html">Data e carga de</A>
+<B> Acima:</B> <A NAME="tex2html47"
+  HREF="revision.html">LBC.BIT.PDR.0001 Procedimentos de revis&#227;o</A>
+<B> Anterior:</B> <A NAME="tex2html41"
+  HREF="node2.html">Introdução</A>
+ &nbsp <B>  <A NAME="tex2html49"
+  HREF="node1.html">Conte&#250;do</A></B> 
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION10030000000000000000">
+Procedimentos de revis&#227;o de c&#243;digo</A>
+</H1>
+
+<P>
+Os procedimentos ser&#227;o os mesmos adotados pelo <B>mozilla.org</B>. Uma lista
+de e-mail ser&#225; criada, <B>revisores@bit.fmrp.usp.br</B>, onde c&#243;pias dos
+e-mails relacionados aos procedimentos de revis&#227;o ser&#227;o postados. Ao receber a
+aprova&#231;&#227;o de revis&#227;o o desenvolvedor dever&#225; realizar um <I>commit</I>
+adicionando o e-mail do revisor no log do CVS. Exemplo:
+<B>r:mavcunha@bit.fmrp.usp.br</B>, pode-se omitir o host para membros do
+Laborat&#243;rio, como <B>r:mavcunha</B>.
+
+<P>
+Para iniciar o procedimento de revis&#227;o o desenvolvedor ap&#243;s alterar seu c&#243;digo 
+de trabalho e estar interessado e realizar o <I>commit</I> de seu c&#243;digo,
+dever&#225; solicitar, atrav&#233;s de e-mail com c&#243;pia para
+<B>revisores@bit.fmrp.usp.br</B>, a um revisor que este d&#234; sua aprova&#231;&#227;o
+sobre o <I>commit</I>. Para enviar a informa&#231;&#227;o, basta o desenvolvedor
+utilizar o <B>diff</B> de seu c&#243;digo em rela&#231;&#227;o a &#225;rvore atual.
+
+<P>
+Comando: <B>cvs diff file <IMG
+ WIDTH="18" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="$&gt;$"> file.patch</B>
+
+<P>
+Este comando criar&#225; um arquivo que ser&#225; utilizado pelo revisor para atualizar
+sua c&#243;pia do c&#243;digo e verificar as mudan&#231;as realizadas pelo desenvolvedor. O
+revisor por sua vez executar&#225; um <B>patch</B> no arquivo de trabalho. 
+
+<P>
+Comando: <B>patch original_file patch_file</B>
+
+<P>
+O revisor, ao terminar de olhar o c&#243;digo, dever&#225; responder o e-mail
+comunicando a aprova&#231;&#227;o ou n&#227;o e suas justificativas.
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html50"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html46"
+  HREF="revision.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html40"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html48"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Seguinte:</B> <A NAME="tex2html51"
+  HREF="node4.html">Data e carga de</A>
+<B> Acima:</B> <A NAME="tex2html47"
+  HREF="revision.html">LBC.BIT.PDR.0001 Procedimentos de revis&#227;o</A>
+<B> Anterior:</B> <A NAME="tex2html41"
+  HREF="node2.html">Introdução</A>
+ &nbsp <B>  <A NAME="tex2html49"
+  HREF="node1.html">Conte&#250;do</A></B> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Marco Aurelio Valtas Cunha
+2003-01-13
+</ADDRESS>
+</BODY>
+</HTML>

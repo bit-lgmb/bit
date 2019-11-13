@@ -1,0 +1,8 @@
+<b>Menu</b>|#0|+
+.Category 1
+..page 1.1|/php_menu/page11.php|#0|+
+..page 1.2|/php_menu/page12.php|#0|+
+.Category 2|/php_menu/page20.php|#0|+
+..page 2.1|/php_menu/page21.php|#0|+
+..page 2.2|/php_menu/page22.php|#0|+
+..page 2.3|/php_menu/page23.php|#0|+

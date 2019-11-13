@@ -1,0 +1,140 @@
+/*
+$Log: example.css,v $
+Revision 1.1.1.1  2002/02/04 18:55:03  mavcunha
+First import on CVS
+
+$Name:  $
+$Author: mavcunha $
+*/
+/* Estilo padrão para a página do Bit */
+
+body {	
+	color:	#000000;
+	background-color: #FFFFFF;
+}
+
+
+#mainbanner {
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Arial, serif;
+	font-weight: bold;
+	font-size: 26px;
+	text-align: left;
+	text-indent: 0px;
+	margin: 1px 0px 1px 0px;
+
+}
+/*
+.logo {
+	text-align: left;
+	margin-bottom: 1em;
+}
+*/
+/* atributos de tabela, menu */
+td {
+	vertical-align: top;
+}
+
+table.main {
+	height: 100%;
+}
+
+td.menu {
+	height: 100%;
+	color: #FFFFFF;
+	background-color: #FFFF33;
+	font-family:  Arial, serif;
+	text-align: left;
+	font-weight: normal;
+	font-size: 12px;
+	padding-top: 120px;
+}
+td.content {
+	color: #CC0000;
+	width: 420px;
+	height: 100%;
+	margin: 1em 2em 1em 2em;
+	text-indent: 1em;
+	font-family: Arial, serif;
+}
+p.newsboxsmall {
+	font-size: 12px;
+	text-align: justify;
+}
+
+p.newsbox {
+        text-indent: 1em;
+}
+p.newsboxtitle {
+	padding: 0;
+	border: 0.1px solid  #000000;
+	color: #FFFFFF;
+	background-color: #006600;
+	text-align: center;
+	font-family: Times, Arial, serif;
+	font-size: 14px;
+	margin: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.newsboxtitleblue {
+	padding: 0;
+	border: 0.1px solid  #3366CC;
+	color: #FFFFFF;
+	background-color: #3366CC;
+	text-align: center;
+	font-family: Times, Arial, serif;
+	font-size: 14px;
+	margin: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.littleboxtitle {
+	padding: 0em 2px 5px 2px;
+	border: 1px solid  #3366CC;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-family: Arial, Times, serif;
+	font-size: 14px;
+	margin: 1px;
+
+}
+.littlebox {
+	 text-align: left;
+	 font-family: Arial, Times, serif;
+	 text-indent: 0px;
+	 font-size: 12px;
+	 padding: 1px;
+	 margin: 1px;
+   /*    border: 0.1px solid  #9FFFFF; */
+	 color: #000000;
+	 background-color: #FFFFFF;
+}
+
+p.menucategory , a.menucategory {
+	color: #000000;
+	background-color: #FFFF33;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Arial, Times, serif;
+	text-align: left;
+	margin-left: 4px;
+	/*margin-top: 20px;
+	margin-bottom: 20px; */
+	
+}
+a.menulink {
+	color: #FFFFFF;
+	background-color: #3366CC;
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 1em;
+}
+a.littleboxlink {
+	color: #000000;
+	background-color: #FFFFFF;
+}

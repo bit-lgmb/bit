@@ -1,0 +1,642 @@
+2002-08-05 23:21  mavcunha
+
+	* docs/website.php: added item
+
+2002-08-05 23:19  mavcunha
+
+	* edit/projects.cache: Fixed snp
+
+2002-08-05 23:18  mavcunha
+
+	* templates/little_box.html: Added Jamborestes link
+
+2002-08-05 23:17  mavcunha
+
+	* source.php: fixed protected check
+
+2002-08-05 23:16  mavcunha
+
+	* staff.php:  Changed email
+
+2002-08-05 23:15  mavcunha
+
+	* services.php: added odds ration
+
+2002-08-05 23:15  mavcunha
+
+	* error404.php, error500.php: Changed email
+
+2002-07-30 16:49  mavcunha
+
+	* templates/footer.html: Added webmail link
+
+2002-07-10 12:11  mavcunha
+
+	* protected/menu/menu.txt: [no log message]
+
+2002-07-09 18:03  mavcunha
+
+	* templates/little_box.html: Added papers db
+
+2002-07-09 18:03  mavcunha
+
+	* menus/main_menu.html: Left Counter
+
+2002-07-09 18:02  mavcunha
+
+	* templates/footer.html: Google to bottom
+
+2002-07-09 16:57  mavcunha
+
+	* menus/main_menu.html: counter center
+
+2002-07-09 16:56  mavcunha
+
+	* templates/footer.html: Added Google search
+
+2002-06-28 12:00  mavcunha
+
+	* contact.php: Changed e-mail address
+
+2002-06-27 23:50  mavcunha
+
+	* docs/manuals.php: Fixed papers address
+
+2002-06-27 23:49  mavcunha
+
+	* error404.php, error500.php: Added some filters
+
+2002-06-13 14:40  mavcunha
+
+	* protected/menu/menu.txt: New menus for expression
+
+2002-06-13 14:40  mavcunha
+
+	* ftp.php: O Login para o FTP anonimo nao funciona
+
+2002-06-11 19:01  mavcunha
+
+	* edit/projects.cache: Link para o projeto Apis foi removido
+
+2002-06-11 19:00  mavcunha
+
+	* seminars.php: Links para os papers consertados
+
+2002-06-11 19:00  mavcunha
+
+	* onsa.php: Links para o Clinical e para o Ludwig foram
+	consertados.
+
+2002-06-11 18:59  mavcunha
+
+	* staff.php: Removido o link para Gislaine
+
+2002-06-11 16:46  mavcunha
+
+	* protected/menu/menu.txt: Menu Pfam excluded
+
+2002-06-11 11:42  mavcunha
+
+	* error404.php: Added message about CTC
+
+2002-06-11 11:21  mavcunha
+
+	* includes/easy_site.inc: Added Regional Blood Center on fundherp
+	name
+
+2002-06-11 11:20  mavcunha
+
+	* error404.php, error500.php: Added remote address, help to verify
+
+2002-06-11 10:58  mavcunha
+
+	* error404.php, error500.php: Cosmetic
+
+2002-06-11 10:28  mavcunha
+
+	* error404.php, error500.php: Added error 500 handler
+
+2002-06-11 10:21  mavcunha
+
+	* menus/main_menu.html: Removed search box
+
+2002-06-11 10:20  mavcunha
+
+	* protected/menu/menu.txt: Exluded some links, spidey
+
+2002-06-11 10:19  mavcunha
+
+	* error404.php: Error handler
+
+2002-06-04 11:22  mavcunha
+
+	* protected/menu/menu.txt: Modified
+
+2002-06-03 14:17  mavcunha
+
+	* snp_hcgp/index.php: Redirect to snp (Adriano)
+
+2002-06-03 14:16  mavcunha
+
+	* protected/: print.css, screen.css: Estilos do menu
+
+2002-06-03 14:13  mavcunha
+
+	* protected/menu/: head.php, index.php, menu.php, menu.txt,
+	tail.php: Menu files
+
+2002-06-03 14:12  mavcunha
+
+	* protected/img/: collapse.gif, end.gif, expand.gif, leaf.gif,
+	space.gif, split.gif, vertline.gif: Menu images
+
+2002-06-03 14:11  mavcunha
+
+	* counter, edit/current.cache, edit/leukemia_analysis.cache,
+	edit/leukemia_mt.cache, edit/mt_analysis.cache,
+	edit/projects.cache, includes/easy_site.inc, menus/main_menu.html,
+	protected/index.php, protected/validation/auth.inc,
+	templates/little_box.html: Backup
+
+2002-05-07 17:24  mavcunha
+
+	* counter, edit/current.cache: Backup
+
+2002-05-07 12:28  mavcunha
+
+	* counter, index.php, edit/current.cache, edit/intranet.cache,
+	edit/leukemia_analysis.cache, edit/projects.cache,
+	protected/.htaccess, protected/validation/auth.inc: Backup
+
+2002-04-19 18:00  mavcunha
+
+	* protected/.htaccess: Updated dir path
+
+2002-04-19 15:24  mavcunha
+
+	* counter, docs/bitlayout.php, edit/leukemia_mt.cache,
+	includes/easy_site.inc: Moved from madhatter to gordon
+
+2002-04-19 10:49  mavcunha
+
+	* counter, edit/current.cache, edit/intranet.cache,
+	edit/leukemia_analysis.cache, edit/leukemia_mt.cache,
+	protected/validation/auth.inc:	Freeze for gordon
+
+2002-04-11 11:26  mavcunha
+
+	* edit/mt_analysis.cache, protected/mt_analysis.php: Added MT
+	information
+
+2002-04-11 11:10  mavcunha
+
+	* counter, file_edit_template.php, edit/current.cache,
+	edit/intranet.cache, edit/leukemia_analysis.cache,
+	protected/leukemia_analysis.php: Link change
+
+2002-04-10 09:47  mavcunha
+
+	* counter, seminars.php, edit/current.cache, edit/intranet.cache,
+	edit/leukemia_mt.cache: Routine commit
+
+2002-04-09 18:01  mavcunha
+
+	* protected/.htpassword: Eduardo rego
+
+2002-03-27 15:26  mavcunha
+
+	* counter, seminars.php, edit/current.cache, edit/intranet.cache,
+	includes/easy_site.inc, protected/validation/auth.inc: Regular
+	update
+
+2002-03-27 15:25  mavcunha
+
+	* protected/leukemia_mt.php, edit/leukemia_mt.cache: Various
+	analysis
+
+2002-03-11 15:38  mavcunha
+
+	* includes/main_frames.inc: added counter
+
+2002-03-11 15:32  mavcunha
+
+	* docs/website.php: [no log message]
+
+2002-03-11 10:44  mavcunha
+
+	* counter, seminars.php, edit/current.cache, edit/intranet.cache,
+	edit/projects.cache, edit/tools.cache,
+	protected/validation/auth.inc: regular update
+
+2002-03-05 11:22  mavcunha
+
+	* projects.php, edit/projects.cache, includes/easy_site.inc: Added
+	edit to projects page and fixed counter problems
+
+2002-03-01 15:12  mavcunha
+
+	* ChangeLog, edit/intranet.cache: New Changelog and links updated
+	on intranet
+
+2002-03-01 15:08  mavcunha
+
+	* counter, includes/easy_site.inc, includes/main.inc: Fixed counter
+	problems
+
+2002-02-28 16:30  mavcunha
+
+	* services.php, edit/current.cache, includes/easy_site.inc: Added
+	officialy the SMS tool
+
+2002-02-27 11:49  mavcunha
+
+	* ChangeLog, counter, docs/website.php, edit/current.cache,
+	edit/intranet.cache, edit/tools.cache, protected/index.php,
+	tools/index.php: Added edit to BiT Tools and more minor changes.
+
+2002-02-26 18:50  mavcunha
+
+	* ChangeLog, counter, current.php, edit/current.cache,
+	edit/index.php, edit/intranet.cache, includes/main.inc,
+	protected/.htaccess, protected/.htpassword, protected/index.php:
+	Edit is now more flexible and all results of projects are now in
+	intranet. end of the day work minor changes as well
+
+2002-02-26 11:28  mavcunha
+
+	* protected/validation/bit_member.inc: moved to auth.inc
+
+2002-02-26 11:27  mavcunha
+
+	* protected/validation/auth.inc: formed bit_member.inc, is a auth
+	library
+
+2002-02-26 11:25  mavcunha
+
+	* edit/: .htaccess, current.cache, index.php: formed edit_current
+
+2002-02-26 11:25  mavcunha
+
+	* edit_current/: .htaccess, current.cache, index.php: moved to edit
+
+2002-02-26 11:04  mavcunha
+
+	* seminars.php: Daniel canceled his seminar
+
+2002-02-26 10:16  mavcunha
+
+	* contact.php: misspelling
+
+2002-02-25 16:18  mavcunha
+
+	* staff.php: updated Roberto
+
+2002-02-25 16:17  mavcunha
+
+	* protected/index.php: moved banco de amostra to current work on.
+
+2002-02-25 14:54  mavcunha
+
+	* current.php: added last edit timestamp
+
+2002-02-25 11:19  mavcunha
+
+	* docs/: index.php, website.php: More "edit" docs.
+
+2002-02-25 11:09  mavcunha
+
+	* docs/edit_current.php, images/edit_current.png: Added some docs
+	about edit page
+
+2002-02-25 10:44  mavcunha
+
+	* current.php, edit_current/index.php: Now we can delete the lock
+	file
+
+2002-02-22 22:42  mavcunha
+
+	* ChangeLog, counter, seminars.php: End of a working day, minor
+	changes
+
+2002-02-22 22:41  mavcunha
+
+	* current.php, edit_current/.htaccess, edit_current/current.cache,
+	edit_current/index.php: New feature to edit the current work on
+	area
+
+2002-02-22 22:40  mavcunha
+
+	* frames/index.php, templates/fmenu_links.html,
+	templates/footer.html: New ctc logo and Menu frame now has dynamic
+	size
+
+2002-02-22 22:38  mavcunha
+
+	* protected/validation/bit_member.inc: New validation method
+
+2002-02-22 22:38  mavcunha
+
+	* images/logo_ctc.jpg: CTC logo
+
+2002-02-22 14:00  mavcunha
+
+	* docs/website.php: add small description about the counter
+
+2002-02-22 13:53  mavcunha
+
+	* templates/footer.html: Fixed problems in alignment with netscape
+
+2002-02-21 12:35  mavcunha
+
+	* protected/index.php: added several links
+
+2002-02-21 12:34  mavcunha
+
+	* onsa.php: space and link problems
+
+2002-02-21 12:33  mavcunha
+
+	* docs/index.php: Better page identification
+
+2002-02-21 12:32  mavcunha
+
+	* docs/website.php, includes/easy_site.inc: Counter is checked if
+	exists and is writable
+
+2002-02-20 18:34  mavcunha
+
+	* staff.php: added marlus
+
+2002-02-20 18:25  mavcunha
+
+	* counter, includes/easy_site.inc, includes/main.inc,
+	includes/main_frames.inc, menus/main_menu.html: added counter
+
+2002-02-20 16:10  mavcunha
+
+	* templates/footer.html: added CNPQ logo to the footer
+
+2002-02-20 16:10  mavcunha
+
+	* images/logo_cnpq.png: added CNPQ logo
+
+2002-02-20 14:48  mavcunha
+
+	* templates/header.html: Added Javascript to scape from frames.
+
+2002-02-20 11:02  mavcunha
+
+	* contact.php: changed the size of the boxes, more space to write
+
+2002-02-20 11:00  mavcunha
+
+	* services.php: Removed cleanseq
+
+2002-02-20 10:57  mavcunha
+
+	* includes/easy_site.inc, templates/footer.html,
+	templates/little_box.html, styles/default.css: Update some styles,
+	links and logos
+
+2002-02-20 10:57  mavcunha
+
+	* seminars.php: Date change
+
+2002-02-20 10:48  mavcunha
+
+	* onsa.php: Finished texts and logos, all ok except for the lack of
+	CITRI description
+
+2002-02-20 08:38  mavcunha
+
+	* images/: logo_aeg.png, logo_clinical.png, logo_fapesp.png,
+	logo_funcional.png, logo_hcgp.png, logo_onsa.jpg, logo_shisto.png,
+	logo_sucest.png, logo_tfi.png, logo_xantho.png, logo_xylella.png:
+	Added logos from ONSA projects
+
+2002-02-19 17:50  mavcunha
+
+	* onsa.php: Added onsa page, with ONSA projects and links.
+
+2002-02-15 15:00  mavcunha
+
+	* contact.php: Working now
+
+2002-02-12 18:18  mavcunha
+
+	* ChangeLog, docs/website.php: New changelog
+
+2002-02-12 17:54  mavcunha
+
+	* source.php, staff.php, includes/easy_site.inc,
+	menus/main_menu.html: Added protect stuff, source.php had to adapt
+	to not show protected sources. Menu has now intranet link to the
+	protected area. Easy_site has an new links 'intranet'.
+
+2002-02-12 17:52  mavcunha
+
+	* protected/: .htaccess, .htpassword: added control files
+
+2002-02-12 17:45  mavcunha
+
+	* protected/index.php: Added protected area.
+
+2002-02-11 19:32  mavcunha
+
+	* ftp.php, seminars.php, docs/website.php, includes/easy_site.inc,
+	includes/main.inc, search/results.php, tools/cleanseq.php: End of a
+	working day, little changes.
+
+2002-02-11 12:00  mavcunha
+
+	* README, services.php, includes/easy_site.inc, search/wrapper.php:
+	Added Pfam link, README now has the htdig conf. And wrapper.php has
+	Powered by ht://Dig.
+
+2002-02-11 11:39  mavcunha
+
+	* search/: buttons/button1.png, buttons/button10.png,
+	buttons/button2.png, buttons/button3.png, buttons/button4.png,
+	buttons/button5.png, buttons/button6.png, buttons/button7.png,
+	buttons/button8.png, buttons/button9.png, buttons/buttonn.png,
+	buttons/buttonp.png, buttonsHi/button1.png, buttonsHi/button10.png,
+	buttonsHi/button2.png, buttonsHi/button3.png,
+	buttonsHi/button4.png, buttonsHi/button5.png,
+	buttonsHi/button6.png, buttonsHi/button7.png,
+	buttonsHi/button8.png, buttonsHi/button9.png: Added the buttons of
+	search
+
+2002-02-11 11:12  mavcunha
+
+	* menus/main_menu.html: Closed form tag
+
+2002-02-08 18:58  mavcunha
+
+	* ChangeLog: New ChangeLog
+
+2002-02-08 18:56  mavcunha
+
+	* README, about.php, ftp.php, seminars.php, staff.php,
+	docs/bitlayout.php, docs/index.php, docs/website.php,
+	frames/index.php, includes/easy_site.inc, menus/main_menu.html,
+	search/long.html, search/nomatch.php, search/results.php,
+	search/syntax.php, search/wrapper.php: Added a complete search
+	engine unsing htdig. Fixed a lot of things, links and etc.  Added
+	the FTP site, and moved some files around to a better place in the
+	site.
+
+2002-02-07 14:22  mavcunha
+
+	* staff.php: Added Rodrigo, Roberto - Changed Marco
+
+2002-02-07 01:04  mavcunha
+
+	* ChangeLog: [no log message]
+
+2002-02-07 00:44  mavcunha
+
+	* docs/manuals.php: Fixed size on source.php removing extras tabs
+	in file
+
+2002-02-06 18:52  mavcunha
+
+	* staff.php: Added Gislaine and Thiago profiles
+
+2002-02-06 17:53  mavcunha
+
+	* docs/manuals.php: Use CTC Papers DB to retrieve manuals or docs
+
+2002-02-06 16:32  mavcunha
+
+	* frames/index.php: Scrollbar it's now on auto mode
+
+2002-02-06 11:35  mavcunha
+
+	* docs/bitlayout.php: Spell check, i really need to learn
+	Portuguese. And fix some links
+
+2002-02-06 11:34  mavcunha
+
+	* changelog.php: Added changelog so now changes on site will be
+	available to all visitors
+
+2002-02-06 11:04  mavcunha
+
+	* images/logo_bit16.png: Added little logo to CVS repository
+
+2002-02-06 10:36  mavcunha
+
+	* templates/fheader.html: Added little logo
+
+2002-02-06 00:00  mavcunha
+
+	* templates/header.html: Added little logo on header
+
+2002-02-05 20:01  mavcunha
+
+	* about.php, seminars.php, staff.php, docs/bitlayout.php,
+	docs/bitlayout_tec.php, frames/index.php, includes/easy_site.inc,
+	menus/main_menu.html: Added about and seminar. Fixed more links and
+	update Docs. Added one more function to easy_site.inc, and minor
+	changes on layout
+
+2002-02-05 16:08  mavcunha
+
+	* staff.php, docs/bitlayout.php, docs/bitlayout_tec.php: Fixing
+	some links and anchors
+
+2002-02-05 15:44  mavcunha
+
+	* current.php: Added Israel's Chemokine link
+
+2002-02-05 15:38  mavcunha
+
+	* includes/main.inc, includes/main_frames.inc, docs/bitlayout.php:
+	Fixed style path
+
+2002-02-05 15:25  mavcunha
+
+	* docs/bitlayout.php: Spell check.
+
+2002-02-05 15:07  mavcunha
+
+	* includes/: main.inc, main_frames.inc: Minor ajustements.
+
+2002-02-05 14:54  mavcunha
+
+	* contact.php, current.php, file_template.php, index.php,
+	projects.php, services.php, source.php, staff.php,
+	docs/bitlayout.php, docs/bitlayout_ex1.php, docs/bitlayout_ex2.php,
+	docs/bitlayout_tec.php, docs/index.php, docs/ltable.php,
+	frames/header.php, frames/menu_links.php, includes/easy_site.inc,
+	includes/main.inc, includes/main_frames.inc,
+	templates/menu_links.html, tools/cleanseq.php, tools/index.php: All
+	files have now relative paths and it's not necessary put any
+	external menus or styles to change the aspect of the site.
+
+2002-02-05 12:21  mavcunha
+
+	* docs/bitlayout_tec.php, frames/index.php, includes/easy_site.inc,
+	includes/main.inc, includes/main_frames.inc,
+	menus/fmenu_links.html, menus/go_menu.html,
+	templates/fmenu_links.html, templates/main_center.html,
+	templates/frames/footer.html, templates/frames/header.html,
+	templates/frames/little_box.html,
+	templates/frames/main_center.html,
+	templates/frames/menu_links.html: transfering working copy to
+	localhost
+
+2002-02-05 12:20  mavcunha
+
+	* staff.php: Working ok, waiting for more info to add
+
+2002-02-04 20:29  mavcunha
+
+	* services.php, staff.php, includes/easy_site.inc,
+	menus/main_menu.html, templates/little_box.html, tools/index.php:
+	Added staff page and index.php on tools. Add more ilinks too.
+
+2002-02-04 16:55  mavcunha
+
+	* README, contact.php, current.php, file_template.php, index.php,
+	projects.php, services.php, source.php, docs/bitlayout.php,
+	docs/bitlayout_ex1.php, docs/bitlayout_ex2.php, docs/index.php,
+	docs/ltable.php, frames/header.php, frames/index.php,
+	frames/menu_links.php, images/bee.jpg, images/drosophila.jpg,
+	images/hcgpsnp.jpg, images/logo_bit.png, images/papers.jpg,
+	includes/easy_site.inc, includes/main.inc,
+	includes/main_frames.inc, includes/template.inc,
+	menus/fmenu_links.html, menus/go_menu.html, menus/main_menu.html,
+	menus/template_menu.html, styles/default.css, styles/example.css,
+	styles/nostyle.css, templates/ffooter.html, templates/fheader.html,
+	templates/footer.html, templates/header.html,
+	templates/little_box.html, templates/main_center.html,
+	templates/menu_append.html, templates/menu_links.html,
+	templates/frames/footer.html, templates/frames/header.html,
+	templates/frames/little_box.html,
+	templates/frames/main_center.html,
+	templates/frames/menu_links.html, tools/cleanseq.php: Initial
+	revision
+
+2002-02-04 16:55  mavcunha
+
+	* README, contact.php, current.php, file_template.php, index.php,
+	projects.php, services.php, source.php, docs/bitlayout.php,
+	docs/bitlayout_ex1.php, docs/bitlayout_ex2.php, docs/index.php,
+	docs/ltable.php, frames/header.php, frames/index.php,
+	frames/menu_links.php, images/bee.jpg, images/drosophila.jpg,
+	images/hcgpsnp.jpg, images/logo_bit.png, images/papers.jpg,
+	includes/easy_site.inc, includes/main.inc,
+	includes/main_frames.inc, includes/template.inc,
+	menus/fmenu_links.html, menus/go_menu.html, menus/main_menu.html,
+	menus/template_menu.html, styles/default.css, styles/example.css,
+	styles/nostyle.css, templates/ffooter.html, templates/fheader.html,
+	templates/footer.html, templates/header.html,
+	templates/little_box.html, templates/main_center.html,
+	templates/menu_append.html, templates/menu_links.html,
+	templates/frames/footer.html, templates/frames/header.html,
+	templates/frames/little_box.html,
+	templates/frames/main_center.html,
+	templates/frames/menu_links.html, tools/cleanseq.php: First import
+	on CVS
+

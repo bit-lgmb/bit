@@ -1,0 +1,71 @@
+##########################
+#
+#  Não insira arquivos dentro deste diretório
+#  ou seus subdiretórios, crie diretórios 
+#  externos para trabalhar.
+#
+#  $Author: mavcunha $
+#  $Date: 2002/02/11 14:00:11 $
+##########################
+
+##########################
+# The search engine
+##########################
+# O software htdig deve ser configurado com 
+# algumas mudanças. Abaixo estão as modificações realizadas.
+
+
+# Site principal qwue será indexado para a busca.
+start_url:		http://madhatter.fmrp.usp.br/bit/
+# Este é o tipo de busca padrão e o modelo que deve ser utilizado.
+template_map: Long long /var/apache/html/bit/search/long.html
+# Wrapper para formatar a página corretamente no contexto do
+# site do BiT
+search_results_wrapper: /var/apache/html/bit/search/wrapper.php
+# Arquivo em caso de não encontrarmos hits
+nothing_found_file: /var/apache/html/bit/search/nomatch.php
+# Se a busca for boolean e houver algum erro de sintaxe
+syntax_error_file: /var/apache/html/bit/search/syntax.php
+# Este parâmetro é necessário pois não estamos nos referenciando 
+# diretamente ao cgi-bin, e sim utilizamos um wrapper (/bit/search/results.php)
+# em php para receber os resultados.
+script_name: /bit/search/results.php
+# O locale para pt_BR deve estar instalado na máquina que irá realizar o search
+# e este parâmetro corrige problemas em palavras acentuadas.
+locale: pt_BR
+# Estas páginas geram muito ruido na busca e não fornecem hits positivos.
+exclude_urls:	/cgi-bin/ .cgi /bit/source.php /frames/header.php /frames/menu.php
+# Arquivos problemáticos.
+bad_extensions:		.wav .gz .z .sit .au .zip .tar .hqx .exe .com .gif \
+	.jpg .jpeg .aiff .class .map .ram .tgz .bin .rpm .mpg .mov .avi .css
+# Url das figuras que representarão as páginas de busca.
+next_page_text:		<img src="/bit/search/buttons/buttonn.png" border="0" align="middle" alt="next">
+no_next_page_text:
+prev_page_text:		<img src="/bit/search/buttons/buttonp.png" border="0" align="middle" alt="prev">
+no_prev_page_text:
+page_number_text:	'<img src="/bit/search/buttons/button1.png" border="0" align="middle"  alt="1">' \
+			'<img src="/bit/search/buttons/button2.png" border="0" align="middle"  alt="2">' \
+			'<img src="/bit/search/buttons/button3.png" border="0" align="middle"  alt="3">' \
+			'<img src="/bit/search/buttons/button4.png" border="0" align="middle"  alt="4">' \
+			'<img src="/bit/search/buttons/button5.png" border="0" align="middle"  alt="5">' \
+			'<img src="/bit/search/buttons/button6.png" border="0" align="middle"  alt="6">' \
+			'<img src="/bit/search/buttons/button7.png" border="0" align="middle"  alt="7">' \
+			'<img src="/bit/search/buttons/button8.png" border="0" align="middle"  alt="8">' \
+			'<img src="/bit/search/buttons/button9.png" border="0" align="middle"  alt="9">' \
+			'<img src="/bit/search/buttons/button10.png" border="0" align="middle" alt="10">'
+no_page_number_text:	'<img src="/bit/search/buttonsHi/button1.png" border="0" align="middle"  alt="1">' \
+			'<img src="/bit/search/buttonsHi/button2.png" border="0" align="middle"  alt="2">' \
+			'<img src="/bit/search/buttonsHi/button3.png" border="0" align="middle"  alt="3">' \
+			'<img src="/bit/search/buttonsHi/button4.png" border="0" align="middle"  alt="4">' \
+			'<img src="/bit/search/buttonsHi/button5.png" border="0" align="middle"  alt="5">' \
+			'<img src="/bit/search/buttonsHi/button6.png" border="0" align="middle"  alt="6">' \
+			'<img src="/bit/search/buttonsHi/button7.png" border="0" align="middle"  alt="7">' \
+			'<img src="/bit/search/buttonsHi/button8.png" border="0" align="middle"  alt="8">' \
+			'<img src="/bit/search/buttonsHi/button9.png" border="0" align="middle"  alt="9">' \
+			'<img src="/bit/search/buttonsHi/button10.png" border="0" align="middle" alt="10">'
+
+########################
+# End search engine
+########################
+
+

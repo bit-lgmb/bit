@@ -1,0 +1,86 @@
+/****************************************************
+**                                                  *
+**  Atenção este código é avaliado em PHP!          *
+**  Portanto tenha cuidado com o que você escreve.  *
+**                                                  *
+****************************************************/
+// $Id: intranet.cache,v 1.9 2002/05/07 15:28:37 mavcunha Exp $
+
+echo \'<center>\';
+echo \'<table border=\"0\" width=\"650\" >\';
+
+echo \'<tr>\';
+    echo \'<td width=\"50%\">\';
+      echo \'<p class=\"newsboxtitleblue\">Pipelines</p>\';
+
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_leukemia\');
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_melanoma\');
+     echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_mtpaper\');
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_clusterannotation\');
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_apis\');
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo \"<a href=\'http://www.compbionet.org.br/transcript/\' target=\'_blank\'>Transcriptome</a>\";
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_mito\');
+      echo \'</p>\';
+      echo \'<p class=\"newsbox\">\';
+      echo ilink(\'pipe_array\');
+      echo \'</p>\';
+    echo \'</td>\';
+    echo \'<td width=\"50%\" >\';  
+      echo \'<p class=\"newsboxtitleblue\">Files</p>\';
+      echo \'<p class=\"newsbox\"><a href=\"http://scarecrow.fmrp.usp.br/files/projects/\">Projects</a></p>\';
+      echo \'<p class=\"newsbox\"><a href=\"http://scarecrow.fmrp.usp.br/files/install/\">Install</a></p>\';
+    echo \'</td>\';
+echo \'</tr>\';
+echo \'<tr>\';
+    echo \'<td width=\"50%\">\';
+      echo \'<p class=\"newsboxtitleblue\">Projects Status</p>\';
+
+//utilizando a técnica \'here document\' as coisas ficam mais fáceis
+
+echo<<<END
+<br><br><a href=\'leukemia_analysis.php\'>Leukemia</a><br><br>
+<a href=\'mt_analysis.php\'>MT</a><br>
+
+END;
+
+    echo \'<td width=\"50%\">\';
+    echo \'<p class=\"newsboxtitleblue\">Other</p>\';
+echo <<<END
+<br>
+<a href=\"/bit/frames/?url=http://143.107.223.180/chr20/\">Chromossome 20</a><br><br>
+<a href=\"/bit/frames/?url=http://143.107.223.153/\">Chemokine</a><br><br>
+<a href=\"/bit/protected/leukemia_mt.php\">Leukemia_MT analysis status</a><br><br>
+
+END;
+     echo \'</td>\';
+  echo \'</tr>\';
+
+// Editado por Philber
+echo \'<tr>\';
+    echo \'<td width=\"50%\">\';
+      echo \'<p class=\"newsboxtitleblue\">Internal Services</p>\';
+
+echo<<<END
+<br><br><a href=\'/amostras\'>Banco de Amostras</a><br><br>
+
+END;
+     echo \'</td>\';
+  echo \'</tr>\';
+
+// Fim da edição
+
+echo \'</table>\';
+echo \'</center>\';

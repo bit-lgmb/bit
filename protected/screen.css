@@ -1,0 +1,13 @@
+body{font-family:verdana,arial,sans-serif; background-color:#CCFFCC; color:#000000; margin:0px}
+a:link{color:#0000FF}
+a:visited{color:#CC00CC}
+a:hover,a:active{color:#FF0000}
+a.tmenu:link{color:#0000CC}
+a.tmenu:visited{color:#990099}
+a.tmenu:hover,a.menu:active{color:#CC0000}
+h1{margin-left:10%; font-size:200%; font-weight:700;}
+h2{text-align:Left; font-size:130%; font-weight:600;}
+div.main{margin-left:2%; margin-right:2%}
+table.tmenu{color:#000000; background-color:#9999FF; font-size:12px}
+td.tmenuselected{color:#FFFF33; background-color:#9999FF; font-size:12px}
+

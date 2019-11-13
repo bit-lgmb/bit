@@ -1,0 +1,478 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-15">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.0.1  (Linux)">
+	<META NAME="CREATED" CONTENT="20030310;10383400">
+	<META NAME="CHANGEDBY" CONTENT="MB">
+	<META NAME="CHANGED" CONTENT="20030310;10592800">
+	<STYLE>
+	<!--
+		@page { margin: 2cm }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="pt-BR">
+<P STYLE="margin-bottom: 0cm">=======================================================================</P>
+<P STYLE="margin-bottom: 0cm">README.txt    para clientes linux com
+NIS+</P>
+<P STYLE="margin-bottom: 0cm">gordon:/usr/local/nfs/nis+/linux/README.txt</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Data da escrita   : 23/08/02</P>
+<P STYLE="margin-bottom: 0cm">Ultima atualizacao: 30/08/02</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Instalacao do NIS+ nos clientes<SPAN LANG="pt-BR">
+Linux </SPAN>Red Hat (&gt;= 7.2) e possivelmente 
+</P>
+<P STYLE="margin-bottom: 0cm">nos clientes Conectiva (7.0). Os testes
+foram efetuados com sucesso em 
+</P>
+<P STYLE="margin-bottom: 0cm">maquina com sistema operacional Red Hat
+7.2.</P>
+<P STYLE="margin-bottom: 0cm">=======================================================================</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">1) Sobre NIS+</P>
+<P STYLE="margin-bottom: 0cm">=============</P>
+<P STYLE="margin-bottom: 0cm">NIS+ foi projetado para substituir NIS
+e e' um<SPAN LANG="pt-BR"> servi&ccedil;o </SPAN>de nome <SPAN LANG="pt-BR">padr&atilde;o</SPAN></P>
+<P STYLE="margin-bottom: 0cm">para Solaris. NIS+ pode prover suporte
+limitado para clientes NIS <SPAN LANG="pt-BR">atrav&eacute;s</SPAN></P>
+<P STYLE="margin-bottom: 0cm">de um modo compatibilidade YP. NIS+ foi
+principalmente projetado para 
+</P>
+<P STYLE="margin-bottom: 0cm">resolver problemas que o NIS<SPAN LANG="pt-BR">
+n&atilde;o </SPAN>poderia.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><SPAN LANG="pt-BR">N&atilde;o</SPAN>
+<SPAN LANG="pt-BR">h&aacute;</SPAN>' nenhuma<SPAN LANG="pt-BR">
+relacao </SPAN>entre NIS+ e NIS. Os comandos e toda a estrutura</P>
+<P STYLE="margin-bottom: 0cm">do NIS+<SPAN LANG="pt-BR"> s&atilde;o
+</SPAN>diferentes do NIS. Inclusive, um pouco da sintaxe de comando 
+</P>
+<P STYLE="margin-bottom: 0cm">em NIS+ e' diferente dos comandos NIS.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">2) FASE DE TRANSICAO DO NIS para NIS
+PLUS (NIS+)</P>
+<P STYLE="margin-bottom: 0cm">================================================</P>
+<P STYLE="margin-bottom: 0cm">Esta primeira etapa<SPAN LANG="pt-BR">
+prev&ecirc; </SPAN>a configuracao de todas as maquinas clientes para</P>
+<P STYLE="margin-bottom: 0cm">rodarem NIS PLUS (NIS+) no modo
+compatibilidade, ou seja, o servidor NIS 
+</P>
+<P STYLE="margin-bottom: 0cm">(Madhatter) continuara' ativo por mais
+algum tempo, ate' ser desativado 
+</P>
+<P STYLE="margin-bottom: 0cm">completamente, em paralelo com o
+servidor NIS+ Gordon. O servidor NIS+ esta' 
+</P>
+<P STYLE="margin-bottom: 0cm">rodando no modo compatibilidade.</P>
+<P STYLE="margin-bottom: 0cm">Na fase seguinte, retiraremos o
+servidor NIS, quando teremos somente o servidor</P>
+<P STYLE="margin-bottom: 0cm">NIS+ ativo.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">O ideal eh que retiremos o NIS o quanto
+antes. Portanto, quem puder desabilite</P>
+<P STYLE="margin-bottom: 0cm">o servi&ccedil;o NIS de sua maquina.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">O servidor NIS+ (root master server
+NIS+) e' o Gordon (IP 143.107.223.151).</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</P>
+<P STYLE="margin-bottom: 0cm">Configurando seu Red Hat 7.2 (ou 7.3) e
+Conectiva para NIS PLUS+</P>
+<P STYLE="margin-bottom: 0cm">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">3) BACKUP</P>
+<P STYLE="margin-bottom: 0cm">=========</P>
+<P STYLE="margin-bottom: 0cm">- Faca um login como root na maquina a
+ser configurada;</P>
+<P STYLE="margin-bottom: 0cm">- Faca um backup de todos os arquivos
+que<SPAN LANG="pt-BR"> sofrer&atilde;o </SPAN><SPAN LANG="pt-BR">altera&ccedil;&otilde;es</SPAN>,
+ou seja,</P>
+<P STYLE="margin-bottom: 0cm">  /etc/pam.d/login,
+/etc/pam.d/system-auth e /etc/nsswitch.conf.</P>
+<P STYLE="margin-bottom: 0cm">  Assim, em caso de problemas,
+facilmente<SPAN LANG="pt-BR"> voc&ecirc; </SPAN>retornara' seu
+sistema a uma 
+</P>
+<P STYLE="margin-bottom: 0cm"><SPAN LANG="pt-BR">  condi&ccedil;&atilde;o
+</SPAN>operacional.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">4)<SPAN LANG="pt-BR"> Substitui&ccedil;&atilde;o
+</SPAN>de arquivos do sistema e<SPAN LANG="pt-BR"> instala&ccedil;&atilde;o
+</SPAN>de pacotes</P>
+<P STYLE="margin-bottom: 0cm">==============================================================</P>
+<P STYLE="margin-bottom: 0cm">- Copie todos os arquivos montados do<SPAN LANG="pt-BR">
+diret&oacute;rio </SPAN>NFS do servidor Gordon</P>
+<P STYLE="margin-bottom: 0cm">  /usr/local/nfs/nis+/Linux para um
+diret&oacute;rio (ex.:/usr/local/nis+);</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Instale o pacote
+nis-utils-1.4.1.-0.i386.rpm; 
+</P>
+<P STYLE="margin-bottom: 0cm">	#rpm -iv nis-utils-1.4.1.-0.i386.rpm</P>
+<P STYLE="margin-bottom: 0cm">- Instale o pacote
+pam_unix2-1.7-0.i386.rpm;</P>
+<P STYLE="margin-bottom: 0cm">	#rpm -iv pam_unix2-1.7-0.i386.rpm;</P>
+<P STYLE="margin-bottom: 0cm">-<SPAN LANG="pt-BR"> Voc&ecirc; </SPAN>DEVE
+ter o rpm pam_unix2 instalado!</P>
+<P STYLE="margin-bottom: 0cm">- Substitua os arquivos &quot;login&quot;
+e &quot;system-auth&quot; do diret&oacute;rio /etc/pam.d pelos do
+diret&oacute;rio /usr/local/nis+;</P>
+<P STYLE="margin-bottom: 0cm">- Substitua o arquivo
+/etc/nsswitch.conf pelo novo &quot;nsswitch.conf&quot; do diret&oacute;rio
+/usr/local/nis+;</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Coloque o arquivo &quot;nisplus&quot;
+no diret&oacute;rio /etc/init.d para iniciar os<SPAN LANG="pt-BR">
+servi&ccedil;os </SPAN>&quot;nisplus&quot;;</P>
+<P STYLE="margin-bottom: 0cm">- Altere os<SPAN LANG="pt-BR">
+privil&eacute;gios </SPAN>de leitura,<SPAN LANG="pt-BR"> grava&ccedil;&atilde;o
+</SPAN>e<SPAN LANG="pt-BR"> execu&ccedil;&atilde;o </SPAN>do arquivo
+nisplus para 755 (chmod 755 nisplus);</P>
+<P STYLE="margin-bottom: 0cm">- Copie o arquivo
+/usr/local/nfs/nis+/Linux/NIS_COLD_START para dentro de /var/nis;</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute nisdefaults (comando) para
+confirmar que o &quot;principal name&quot; n&atilde;o esta
+autenticado;</P>
+<P STYLE="margin-bottom: 0cm">- Execute nismatch &lt;algum <SPAN LANG="pt-BR">usu&aacute;rio</SPAN>&gt;
+passwd.org_dir para certificar que o nisplus pode obter detalhes</P>
+<P STYLE="margin-bottom: 0cm">  de password de <SPAN LANG="pt-BR">usu&aacute;rios</SPAN>,
+incluindo senha criptografada;</P>
+<P STYLE="margin-bottom: 0cm">- Execute /usr/sbin/ntsysv (ou outro)
+para ter certeza de que os seguintes servi&ccedil;os/scripts<SPAN LANG="pt-BR">
+ser&atilde;o </SPAN>iniciados/n&atilde;o</P>
+<P STYLE="margin-bottom: 0cm">  (desabilite) na<SPAN LANG="pt-BR">
+pr&oacute;xima </SPAN>vez que sua maquina for iniciada:</P>
+<P STYLE="margin-bottom: 0cm">  - autofs</P>
+<P STYLE="margin-bottom: 0cm">  - desabilite ipchains</P>
+<P STYLE="margin-bottom: 0cm">  - desabilite iptables</P>
+<P STYLE="margin-bottom: 0cm">  - nisplus</P>
+<P STYLE="margin-bottom: 0cm">  - nscd</P>
+<P STYLE="margin-bottom: 0cm">  - portmap</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">5) Inicializacao de servi&ccedil;os/daemons</P>
+<P STYLE="margin-bottom: 0cm">====================================</P>
+<P STYLE="margin-bottom: 0cm"><SPAN LANG="pt-BR">Ap&oacute;s</SPAN>
+copiar os arquivos em seus locais, execute a<SPAN LANG="pt-BR">
+seq&uuml;encia </SPAN>de comandos abaixo 
+</P>
+<P STYLE="margin-bottom: 0cm">para iniciar os servi&ccedil;os e
+daemons no cliente:</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Sincronize a hora do cliente com a
+hora do servidor NIS+:</P>
+<P STYLE="margin-bottom: 0cm">  # rdate -s gordon</P>
+<P STYLE="margin-bottom: 0cm">  (Posteriormente, utilizaremos servi&ccedil;o
+de tempo (ntp));</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Crie arquivo /etc/defaultdomain com o<SPAN LANG="pt-BR">
+conte&uacute;do </SPAN>bit.fmrp.usp.br. ;</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Defina o<SPAN LANG="pt-BR"> dom&iacute;nio
+</SPAN>com o comando abaixo, inclusive o ponto (.) .</P>
+<P STYLE="margin-bottom: 0cm">  # domainname bit.fmrp.usp.br.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Torne o dom&iacute;nio permanente:</P>
+<P STYLE="margin-bottom: 0cm">  edite (com vi ou emacs)
+/etc/sysconfig/network e insira:</P>
+<P STYLE="margin-bottom: 0cm">    NISDOMAIN=bit.fmrp.usp.br.</P>
+<P STYLE="margin-bottom: 0cm">    HOSTNAME<SPAN LANG="pt-BR">=&quot;nome.da.sua.m&aacute;quina&quot;</SPAN></P>
+<P STYLE="margin-bottom: 0cm">  Seu hostname n&atilde;o pode estar
+completamente qualificado, ou seja, hostname.bit.fmrp.usp.br. ,</P>
+<P STYLE="margin-bottom: 0cm">  devendo ficar, aqui, apenas
+&quot;nome.da.sua.m&aacute;quina&quot;.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Crie script de startup para definir o
+dom&iacute;nio do NIS+ (domainname) para bit.fmrp.usp.br.</P>
+<P STYLE="margin-bottom: 0cm">	#echo domainname bit.fmrp.usp.br. &gt;
+/etc/rc.d/init.d/domainname</P>
+<P STYLE="margin-bottom: 0cm">	#chmod 755 /etc/rc.d/init.d/domainname</P>
+<P STYLE="margin-bottom: 0cm">	#ln -s /etc/rc.d/init.d/domainname
+/etc/rc.d/rc5.d/S11domainname /etc/rc.d/init.d/domainname</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Inicialize portmap se n&atilde;o
+estiver rodando e assegure que ele<SPAN LANG="pt-BR"> ser&aacute;
+</SPAN>iniciado no &quot;reboot&quot;</P>
+<P STYLE="margin-bottom: 0cm">	#mv /etc/rc.d/rc5.d/K13portmap
+/etc/rc.d/rc5.d/S13portmap</P>
+<P STYLE="margin-bottom: 0cm">	 
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">* Inicializando o cliente NIS+ *</P>
+<P STYLE="margin-bottom: 0cm">--------------------------------</P>
+<P STYLE="margin-bottom: 0cm">- Insira o IP 143.107.223.151 no
+/etc/hosts;</P>
+<P STYLE="margin-bottom: 0cm">- Execute:</P>
+<P STYLE="margin-bottom: 0cm">	#nisinit -c -H 143.107.223.151</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">* Inicializando o daemon nscd *</P>
+<P STYLE="margin-bottom: 0cm">-------------------------------</P>
+<P STYLE="margin-bottom: 0cm">- Execute o daemon nscd (name service
+cache daemon ou daemon de cache para servi&ccedil;o de nome):</P>
+<P STYLE="margin-bottom: 0cm">	#nscd</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">* Inicializando credenciais NIS+ para o
+cliente *</P>
+<P STYLE="margin-bottom: 0cm">-------------------------------------------------</P>
+<P STYLE="margin-bottom: 0cm">- Execute /usr/lib/nis/nisclient -i -d
+bit.fmrp.usp.br. -h 143.107.223.151</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  Esta script foi escrita para<SPAN LANG="pt-BR">
+distribui&ccedil;&atilde;o </SPAN>SuSE, mas, apesar de haver algumas
+mensagens</P>
+<P STYLE="margin-bottom: 0cm">  de &quot;warnings&quot; sobre
+arquivos n&atilde;o encontrados, como rc.config, killproc e
+startproc, 
+</P>
+<P STYLE="margin-bottom: 0cm">  parece que elas podem sem seguramente
+ignoradas.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Senha solicitada: pergunte ao
+suporte;</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">* Atualizando<SPAN LANG="pt-BR">
+informa&ccedil;&otilde;es </SPAN>de runlevel para servi&ccedil;os do
+sistema *</P>
+<P STYLE="margin-bottom: 0cm">----------------------------------------------------------------
+ 
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute chkconfig --level 345 nisplus
+on    
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute chkconfig --level 2345
+iptables off        
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute chkconfig --level 2345
+ipchains off        
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">* Atualizando o Mapa Mestre para o
+Automounter *</P>
+<P STYLE="margin-bottom: 0cm">------------------------------------------------
+ 
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute echo &quot;/home 
+nisplus:auto_home rsize=8192,wsize=8192,timeo=14,intr&quot; &gt;&gt;
+/etc/auto.master</P>
+<P STYLE="margin-bottom: 0cm">  <SPAN LANG="pt-BR">Ent&atilde;o</SPAN>,
+pare e inicie o &quot;autofs&quot;:</P>
+<P STYLE="margin-bottom: 0cm">  #/etc/init.d/autofs stop</P>
+<P STYLE="margin-bottom: 0cm">  #/etc/init.d/autofs start</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Certifique-se de que autofs ser&aacute;'
+iniciado no reboot:</P>
+<P STYLE="margin-bottom: 0cm">	#mv /etc/rc.d/rc5.d/K28autofs
+/etc/rc.d/rc5.d/S28autofs</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Obtenha o pid do processo keyserv:</P>
+<P STYLE="margin-bottom: 0cm">	#ps -ef | grep keyserv</P>
+<P STYLE="margin-bottom: 0cm">  Mate o processo keyserv:</P>
+<P STYLE="margin-bottom: 0cm">  	#kill -9 &lt;keyserv.pid&gt; 
+</P>
+<P STYLE="margin-bottom: 0cm">- Inicie keyserv e assegure-se de que
+ele ser&aacute; iniciado imediatamente apos portmap no &quot;reboot&quot;:</P>
+<P STYLE="margin-bottom: 0cm">	#keyserv</P>
+<P STYLE="margin-bottom: 0cm">	#echo keyserv &gt;
+/etc/rc.d/init.d/keyserv</P>
+<P STYLE="margin-bottom: 0cm">	#chmod 755 /etc/rc.d/init.d/keyserv</P>
+<P STYLE="margin-bottom: 0cm">	#ln -s /etc/rc.d/init.d/keyserv
+/etc/rc.d/rc5.d/S14keyserv</P>
+<P STYLE="margin-bottom: 0cm">	#mv /etc/rc.d/rc5.d/S14nfslock
+/etc/rc.d/rc5.d/S15nfslock</P>
+<P STYLE="margin-bottom: 0cm">	</P>
+<P STYLE="margin-bottom: 0cm">* Inicializando o utilitario
+nis_cachemgr para manter o arquivo cache compartilhado (ttl) *</P>
+<P STYLE="margin-bottom: 0cm">-------------------------------------------------------------------------------------------</P>
+<P STYLE="margin-bottom: 0cm">- Execute /usr/sbin/nis_cachemgr -i</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">* Decriptografando e armazenando a
+chave secreta com keyserv *</P>
+<P STYLE="margin-bottom: 0cm">--------------------------------------------------------------
+</P>
+<P STYLE="margin-bottom: 0cm">- Execute (ainda como root):</P>
+<P STYLE="margin-bottom: 0cm">   #rm -rf /etc/.rootkey</P>
+<P STYLE="margin-bottom: 0cm">   #keylogin -r           (<SPAN LANG="pt-BR">respons&aacute;vel</SPAN>
+pela<SPAN LANG="pt-BR"> autentica&ccedil;&atilde;o </SPAN>no NIS+)</P>
+<P STYLE="margin-bottom: 0cm">   Password: 		  (pergunte ao
+administrador)</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">   (resultado da <SPAN LANG="pt-BR">opera&ccedil;&atilde;o</SPAN>)
+</P>
+<P STYLE="margin-bottom: 0cm">   Wrote secret key into /etc/.rootkey</P>
+<P STYLE="margin-bottom: 0cm">   
+</P>
+<P STYLE="margin-bottom: 0cm">   (Se voc&ecirc; obtiver um &quot;core
+dump&quot; aqui, verifique o arquivos<SPAN LANG="pt-BR"> substitu&iacute;dos
+</SPAN>do</P>
+<P STYLE="margin-bottom: 0cm">    dentro do sub-diret&oacute;rio
+/etc/pam.d)</P>
+<P STYLE="margin-bottom: 0cm">   
+</P>
+<P STYLE="margin-bottom: 0cm">- Certifique-se de que voc&ecirc;
+colocou o &quot;hostname&quot; dentro do arquivo /etc/hosts:</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+143.107.223.x		clientbit.bit.fmrp.usp.br. clientbit
+localhost.localdomain localhost</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> - CUIDADO: Se voc&ecirc; n&atilde;o
+fizer isto, o sistema ira' travar no &quot;boot&quot;!</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">- Reinicie o sistema ...</P>
+<P STYLE="margin-bottom: 0cm">	#reboot</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">- Boa sorte.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">6) <SPAN LANG="pt-BR">Autentica&ccedil;&atilde;o</SPAN>,
+Senhas, KEYLOGIN e CHKEY 
+</P>
+<P STYLE="margin-bottom: 0cm">=========================================</P>
+<P STYLE="margin-bottom: 0cm">NIS+ aumenta<SPAN LANG="pt-BR">
+seguran&ccedil;a </SPAN>ao usar um<SPAN LANG="pt-BR"> m&eacute;todo
+</SPAN>de autentica&ccedil;&atilde;o adicional.</P>
+<P STYLE="margin-bottom: 0cm"><SPAN LANG="pt-BR">Usu&aacute;rios</SPAN>
+ainda<SPAN LANG="pt-BR"> ter&atilde;o </SPAN>suas SENHAS de LOGIN
+padr&atilde;o (LOGIN PASSWORD) 
+</P>
+<P STYLE="margin-bottom: 0cm">que lhes<SPAN LANG="pt-BR"> dar&atilde;o
+</SPAN>acesso ao sistema. Eles<SPAN LANG="pt-BR"> tamb&eacute;m ter&atilde;o</SPAN>
+uma SECURE RPC PASSWORD</P>
+<P STYLE="margin-bottom: 0cm">ou NETWORK PASSWORD. 
+</P>
+<P STYLE="margin-bottom: 0cm">Esta nova senha e'<SPAN LANG="pt-BR">
+necess&aacute;ria </SPAN>para efetivamente acessar NIS+, e e' o que 
+</P>
+<P STYLE="margin-bottom: 0cm">prove a nova seguran&ccedil;a.
+Usualmente, uma LOGIN PASSWORD de um usu&aacute;rio e uma 
+</P>
+<P STYLE="margin-bottom: 0cm">NETWORK PASSWORD ser&atilde;o a MESMA,
+e o usu&aacute;rio automaticamente <SPAN LANG="pt-BR">ter&aacute;</SPAN>
+acesso a 
+</P>
+<P STYLE="margin-bottom: 0cm">toda funcionalidade NIS+ quando ele<SPAN LANG="pt-BR">
+fizer </SPAN>um &quot;login&quot; com sua LOGIN PASSWORD. 
+</P>
+<P STYLE="margin-bottom: 0cm">Entretanto, se elas forem diferentes,
+um usu&aacute;rio ter&aacute;' que efetuar um KEYLOGIN 
+</P>
+<P STYLE="margin-bottom: 0cm">e digitar sua senha de rede (NETWORK
+PASSWORD) para ter acesso ao NIS+. 
+</P>
+<P STYLE="margin-bottom: 0cm">Portanto, RECOMENDO que igualem as
+senhas dos sistemas Linux e Solaris e do NIS+.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Como Mudar uma senha de um usu&aacute;rio
+NIS+</P>
+<P STYLE="margin-bottom: 0cm">=======================================</P>
+<P STYLE="margin-bottom: 0cm">A senha para um usu&aacute;rio normal
+pode ser alterada por ele executando o comando</P>
+<P STYLE="margin-bottom: 0cm">nispasswd:</P>
+<P STYLE="margin-bottom: 0cm">#nispasswd</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Isto atualiza o passwd na tabela passwd
+e tamb&eacute;m atualiza a tabela de credenciais.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Autentica&ccedil;&atilde;o no NIS+</P>
+<P STYLE="margin-bottom: 0cm">====================</P>
+<P STYLE="margin-bottom: 0cm">Voc&ecirc; pode usar o comando niscat
+para determinar se esta AUTENTICADO ou n&atilde;o:</P>
+<P STYLE="margin-bottom: 0cm">#niscat passwd.org_dir</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">E tamb&eacute;m nisdefaults:</P>
+<P STYLE="margin-bottom: 0cm">#nisdefaults</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">KEYLOGIN e CHKEY</P>
+<P STYLE="margin-bottom: 0cm">================</P>
+<P STYLE="margin-bottom: 0cm">Se voc&ecirc; pode ver senhas
+criptografadas,<SPAN LANG="pt-BR"> ent&atilde;o voc&ecirc;</SPAN>
+esta' autenticado. Se voc&ecirc; <SPAN LANG="pt-BR">v&ecirc;</SPAN></P>
+<P STYLE="margin-bottom: 0cm">*NP* no lugar de senhas criptografadas,
+ent&atilde;o voc&ecirc; (usu&aacute;rio) n&atilde;o tem<SPAN LANG="pt-BR">
+permiss&atilde;o </SPAN>para ler</P>
+<P STYLE="margin-bottom: 0cm">a coluna de passwd. Neste caso, voc&ecirc;
+poderia executar 'keylogin' para tentar reautenticar</P>
+<P STYLE="margin-bottom: 0cm">o usu&aacute;rio. Se funcionar, o
+usu&aacute;rio poderia necessitar executar 'chkey -p' para
+sincronizar</P>
+<P STYLE="margin-bottom: 0cm">suas SENHAS de LOGIN e de REDE.</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">Qualquer duvida/problema favor falar
+com <SPAN LANG="pt-BR">Maur&iacute;cio.</SPAN></P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">==========================================================================</P>
+<P STYLE="margin-bottom: 0cm">by Maur&iacute;cio. Brigato</P>
+<P STYLE="margin-bottom: 0cm">   System Administrator</P>
+<P STYLE="margin-bottom: 0cm">   BIT - Bioinformatic Team   
+</P>
+<P STYLE="margin-bottom: 0cm">   Fundacao Hemocentro de<SPAN LANG="pt-BR">
+Ribeir&atilde;o </SPAN>Preto 
+</P>
+<P STYLE="margin-bottom: 0cm">   Faculdade de Medicina de Ribeir&atilde;o
+Preto</P>
+<P STYLE="margin-bottom: 0cm">   USP - Universidade de<SPAN LANG="pt-BR">
+S&atilde;o </SPAN>Paulo</P>
+<P STYLE="margin-bottom: 0cm">   e-mail: mauricio@bit.fmrp.usp.br</P>
+<P STYLE="margin-bottom: 0cm">   http://bit.fmrp.usp.br</P>
+<P STYLE="margin-bottom: 0cm">==========================================================================
+  
+</P>
+</BODY>
+</HTML>

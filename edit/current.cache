@@ -1,0 +1,23 @@
+      <a href=\"/prdb/\" target=\"_blank\">Banco de Primers</a><br><br>
+
+      <a href=\"/bit/protected/?ptitle=Intranet\">Banco de amostras ( Novo Link : <b>Intranet/Internal Services</b> )</a><br><br>
+      
+<a href=\"/bit/frames/?title=GO_GeneList&url=http://143.107.223.151/cgi-bin/go/list/tableList.pl \"> Gene Ontology Leukemia, MT</a><br><br>
+
+<a href=\"/bit/frames/?title=Spidey_at_BiT&url=http://143.107.223.178/spidey/spidey/spidey.php\">Spidey </a>
+<br><br>
+
+<a href=\"/bit/frames/?title=Gene_Ontology&url=http://143.107.223.151/cgi-bin/go/uploadGO1/upload.pl\">GO_upload_Terms</a>
+<br><br>
+
+<a href=\"/bit/frames/?title=Upload_GO&url=http://143.107.223.151/cgi-bin/go/uploadGO2/upindex.pl\">GO_upload_MF_BP_CC</a>
+<br><br>
+
+<a href=\"/bit/frames/?title=Human_Mapping&url=http://143.107.223.178/cgi-bin/gbrowse?source=human\">Chr05 mapping</a>
+<br><br>
+
+<a href=\"/bit/frames/?title=Gene_Expression&url=http://bit.fmrp.usp.br/geis/ge.html\">Gene Expression</a>
+<br><br>
+
+<a href=\"/bit/frames/?title=Head&Neck&url=http://bit.fmrp.usp.br/hn_clone/index.html\">Head&Neck 2SAGE</a>
+<br><br>

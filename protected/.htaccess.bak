@@ -1,0 +1,7 @@
+Deny from all
+Allow from 143.107.223.
+Require valid-user
+AuthType Basic
+AuthUserFile /var/apache/htdocs/bit/protected/.htpassword
+AuthName "BiT Intranet"
+Satisfy any
